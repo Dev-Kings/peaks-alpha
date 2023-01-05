@@ -521,6 +521,7 @@ h6 {
   font-weight: 600;
   line-height: 46px;
   color: #fff;
+  margin-top: 8px;
 }
 
 #offer .animated {
@@ -529,9 +530,13 @@ h6 {
 
 @media (max-width: 991px) {
   #offer {
-    height: 170vh;
+    height: 190vh;
     text-align: center;
   }
+
+  #offer h1 {
+    margin-top: 16px;
+  }  
 
   #offer .animated {
     -webkit-animation: none;
@@ -552,6 +557,10 @@ h6 {
   #offer .offer-img img {
     width: 70%;
   }
+
+  #offer h1 {
+    margin-top: 8px;
+  }  
 }
 
 @media (max-width: 575px) {
@@ -559,6 +568,10 @@ h6 {
   #offer .offer-img img {
     width: 80%;
   }
+
+  #offer h1 {
+    margin-top: 8px;
+  }  
 }
 
 @-webkit-keyframes up-down {
