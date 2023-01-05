@@ -530,7 +530,7 @@ h6 {
 
 @media (max-width: 991px) {
   #offer {
-    height: 200vh;
+    height: 220vh;
     text-align: center;
   }
 
@@ -553,6 +553,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  #offer {
+    height: 200vh;
+    text-align: center;
+  }
 
   #offer .offer-img img {
     width: 70%;
